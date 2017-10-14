@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="login" extends="struts-default">
+<action name="HelloWorld" method="ConnectDatabase" class="action.HelloWorld">
+<result>/list.jsp</result>
+</action>
+<action name="delete" method="Delete" class="action.HelloWorld">
+<result>/delete.jsp</result>
+</action>
+<action name="find" method="Find" class="action.HelloWorld">
+<result>/find1.jsp</result>
+</action>
+<action name="author" method="Author" class="action.HelloWorld">
+<result>/author.jsp</result>
+</action>
+<action name="add" method="Add" class="action.HelloWorld">
+<result>/Add1.jsp</result>
+</action>
+<action name="update" method="update" class="action.HelloWorld">
+<result>/Main.jsp</result>
+</action>
+</package>
+</struts>    
