@@ -1,5 +1,6 @@
 package Menu;
 //Lab2change
+//change
 import com.opensymphony.xwork2.ActionSupport;
 public class Author extends ActionSupport{
 	private String Name;
